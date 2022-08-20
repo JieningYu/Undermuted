@@ -1,0 +1,43 @@
+package net.krlite.undermuted.registry;
+
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.Identifier;
+
+public class UMItemGroup {
+    //Item Groups
+    public static final net.minecraft.item.ItemGroup ITEMS = FabricItemGroupBuilder.create(
+            new Identifier("undermuted", "items"))
+            .icon(() -> new ItemStack(UMItems.PARADOX_CLOCK))
+            .appendItems(stacks -> {
+                stacks.add(new ItemStack(UMItems.PARADOX_CLOCK));
+            })
+            .build();
+
+    public static final net.minecraft.item.ItemGroup TOOLS = FabricItemGroupBuilder.create(
+                    new Identifier("undermuted", "tools"))
+            .icon(() -> new ItemStack(Items.NETHERITE_AXE))
+            .appendItems(stacks -> {
+            })
+            .build();
+
+    //Block Groups
+    public static final net.minecraft.item.ItemGroup BUILDING_BLOCKS = FabricItemGroupBuilder.create(
+            new Identifier("undermuted", "building_blocks"))
+            .icon(() -> new ItemStack(UMBlocks.PARADOX_SOIL))
+            .appendItems(stacks -> {
+                stacks.add(new ItemStack(UMBlocks.PARADOX_SOIL));
+                stacks.add(new ItemStack(UMBlocks.HARDENED_PARADOX_SOIL));
+                stacks.add(new ItemStack(UMBlocks.PARADOX_CONCRETE));
+            })
+            .build();
+
+    public static final net.minecraft.item.ItemGroup GENERAL = FabricItemGroupBuilder.create(
+                    new Identifier("undermuted", "blocks"))
+            .icon(() -> new ItemStack(Blocks.COBBLESTONE))
+            .appendItems(stacks -> {
+            })
+            .build();
+}
