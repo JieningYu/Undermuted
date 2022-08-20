@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "undermuted",
+  "version": "${version}",
+
+  "name": "the Undermuted",
+  "description": "the Undermuted is in Develop",
+  "authors": [
+    "KrLite"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/undermuted/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.krlite.undermuted.UndermutedMod"
+    ]
+  },
+  "mixins": [
+    "undermuted.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
