@@ -1,12 +1,12 @@
 {
-  "type": "minecraft/block",
+  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undermuted:paradox_hardened_soil"
+          "name": "hardened_undermuted:paradox_soil"
         }
       ],
       "conditions": [

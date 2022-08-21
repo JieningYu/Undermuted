@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "undermuted:paradox_soil"
+  },
+  "result": "undermuted:hardened_paradox_soil",
+  "experience": 2.0,
+  "cookingtime": 750
+}

@@ -21,21 +21,22 @@ import net.minecraft.util.registry.Registry;
 public class UMBlocks {
 	// Building Blocks
 	public static final Block PARADOX_SOIL = new Block(FabricBlockSettings
-			.of(Material.SOIL)
-			.strength(0.35f));
+					.of(Material.SOIL)
+					.strength(0.35f));
 	public static final Block HARDENED_PARADOX_SOIL = new Block(FabricBlockSettings
-			.of(Material.STONE)
-			.strength(3.7f));
+					.of(Material.STONE)
+					.strength(2.3f));
 	public static final Block PARADOX_CONCRETE = new Block(FabricBlockSettings
-			.of(Material.STONE)
-			.strength(3.7f));
+					.of(Material.STONE)
+					.strength(3.7f));
 
+	//RRP Block Register
 	private static void registerBlock(Block block, String name, BlockType type, ItemGroup group, JModel model) {
 		String id = StringUtil.toIdentifier(name);
 		Registry.register(Registry.BLOCK, UndermutedMod.genId(id), block);
 		Registry.register(Registry.ITEM, UndermutedMod.genId(id),
 				new BlockItem(block, new FabricItemSettings()
-						.group(group)));
+								.group(group)));
 		switch (type) {
 			case FULL_SIMPLE:
 				BlockStatesHandler.infuseBlockStates(BlockStatesGen.simpleFullBlockBlockStates(id), id);
