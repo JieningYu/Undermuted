@@ -1,6 +1,7 @@
 # gradle
 
 .gradle/
+gradlew
 build/
 out/
 classes/
@@ -31,4 +32,4 @@ bin/
 # fabric
 
 run/
-brrp/
+# brrp/
