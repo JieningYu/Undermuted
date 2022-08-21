@@ -224,7 +224,7 @@ set -- \
 # an unmatched quote.
 #
 
-JAVACMD="/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java"
+# JAVACMD="/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java"
 
 eval "set -- $(
         printf '%s\n' "$DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS" |
