@@ -3,11 +3,5 @@
   "itemGroup.undermuted.items": "the Undermuted | Items",
   "itemGroup.undermuted.tools": "the Undermuted | Tools",
   "itemGroup.undermuted.building_blocks": "the Undermuted | Building Blocks",
-  "itemGroup.undermuted.blocks": "the Undermuted | General",
-  "2": "Items",
-  "item.undermuted.paradox_clock": "Paradox Clock",
-  "3": "Blocks",
-  "block.undermuted.paradox_soil": "Paradox Soil",
-  "block.undermuted.hardened_paradox_soil": "Hardened Paradox Soil",
-  "block.undermuted.paradox_concrete": "Paradox Concrete"
+  "itemGroup.undermuted.blocks": "the Undermuted | General"
 }
