@@ -28,6 +28,7 @@ public class UMBlocks {
 					.strength(2.3f));
 	public static final Block PARADOX_CONCRETE = new Block(FabricBlockSettings
 					.of(Material.STONE)
+					.requiresTool()
 					.strength(3.7f));
 
 	//RRP Block Register
